@@ -37,5 +37,5 @@ puts win_combination
 end
 
 def full?(board)
-  
+  board.include?("X") || board.include?("O")
 end 
