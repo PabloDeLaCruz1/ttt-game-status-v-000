@@ -33,5 +33,5 @@ puts win_combination
   #   end
   # end
   # false
-  
+end
 end
