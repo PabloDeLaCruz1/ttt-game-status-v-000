@@ -26,6 +26,7 @@ def won?(board)
     position_3 = board[win_index_3] # load the value of the board at win_index_3
     
      if position_1 == "X" && position_2 == "X" && position_3 == "X"
+       puts win_combination
        win_combination 
      else
        false
