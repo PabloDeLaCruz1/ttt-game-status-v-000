@@ -34,5 +34,5 @@ def won?(board)
 end
 
 def full?(board)
-  9.times board.include?("X") || board.include?("O")
+ board.include?("X") || board.include?("O")
 end 
